@@ -16,7 +16,7 @@ const HSLO = new class {
   constructor() {
     this.method = 'GET';
     this.URL = "https://ranirumi.github.io/HSLO-Mirai-Public-ext/";
-    this.URL = "https://ranirumi.github.io/HSLO-Sakura/";
+    this.URL = "https://github.com/Mashkaya/Mashkaya.github.io/blob/main/aokwaokao";
     this.HTML = ``;
     this.date = Date.now();
   }
