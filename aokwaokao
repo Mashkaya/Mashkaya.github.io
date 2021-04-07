@@ -1,0 +1,22 @@
+// ==UserScript==
+// @name         HSLO Sakura
+// @description  HSLO Sakura The Ultimate Multiboxing Experience
+// @version      1.0
+// @author       Original by test114514 桜 by Ranirumi
+// @match        *://agar.io/*
+// @require      https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js
+// @run-at       document-start
+// @grant        none
+// ==/UserScript==
+if (location.host === 'agar.io' && location.href !== 'https://agar.io/SakuraHslo') {
+  location.href = 'https://agar.io/SakuraHslo';
+  return;
+}
+const HSLO = new class {
+  constructor() {
+    this.method = 'GET';
+    this.URL = "https://ranirumi.github.io/HSLO-Mirai-Public-ext/";
+    this.URL = "https://ranirumi.github.io/HSLO-Sakura/";
+    this.HTML = ``;
+    this.date = Date.now();
+  }
